@@ -3,12 +3,12 @@ const list = document.getElementById("infi-list");
 
 function addItem() {
   const li = document.createElement("li");
-  li.textContent = `List Item ${list.children.length + 1}`;
+  li.textContent = `Item ${list.children.length + 1}`;
   list.appendChild(li);
 }
 
 // Add 10 items by default
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 10; i++) {
   addItem();
 }
 
